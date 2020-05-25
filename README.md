@@ -10,6 +10,11 @@ This project is a demo that uses boto3 to manage AWS EC2 instance snapshots.
 
 snapshotanalyzer uses the configuration file created by the AWS cli.
 
+`aws configure --profile snapshotanalyzer`
+
 ## Running
 
-`pipenv run "snapshotanalyzer\snapshotanalyzer.py"`
+`pipenv run "snapshotanalyzer\snapshotanalyzer.py <command> <--project=PROJECT>"`
+
+*command* is list, start, or stop
+*project* is optional
