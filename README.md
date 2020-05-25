@@ -17,5 +17,5 @@ snapshotanalyzer uses the configuration file created by the AWS cli.
 `pipenv run "snapshotanalyzer\snapshotanalyzer.py <command> <subcommand> <--project=PROJECT>"`
 
 *command* is instances, volumes, or snapshots
-*subcommsnd* - depends on command
+*subcommand* - depends on command
 *project* is optional
